@@ -15,6 +15,10 @@ public class CheckDateTest {
     public void testValidDate_30_4_2000() {
         assertTrue(CheckDate.CheckDate(4, 2000, 30)); // Tháng 4 có 30 ngày
     }
-
+    
+    @Test
+    public void testValidDate_31_4_2000() {
+        assertTrue(CheckDate.CheckDate(4, 2000, 30)); // Tháng 4 có 30 ngày
+    }
     
 }
